@@ -1,0 +1,14 @@
+// 既定の設定とユーザー設定を上書きするには、このファイル内に設定を挿入します
+{
+    "latex-workshop.compiler": "platex",
+
+    // Compiler options to use. Default: -synctex=1 -interaction=nonstopmode -file-line-error.
+    "latex-workshop.compile_argument": "-kanji=utf8 -synctex=1 -interaction=nonstopmode -file-line-error",
+
+    // Sequence of commands to compile LaTeX to PDF. Available placeholders: %compiler%, %arguments%, %document%.
+    "latex-workshop.compile_workflow": [
+        "%compiler% %arguments% %document%",
+        "%compiler% %arguments% %document%",
+        "dvipdfmx main"
+    ]
+}
