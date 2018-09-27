@@ -5,4 +5,4 @@ rm -r latex2e
 
 cp ieice_tech_utf8/ieicej.cls ../workspace/
 cp ieice_tech_utf8/template.tex ../workspace/
-touch main.tex
+touch ../workspace/main.tex
